@@ -1,0 +1,84 @@
+/*
+ * Copyright 2015 Trello, Inc
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+plugins {
+    id 'nu.studer.plugindev' version '1.0.3'
+
+    // Should come along with plugindev, but plugindev uses an old version
+    id 'com.jfrog.bintray' version '1.6'
+    id 'java-gradle-plugin'
+    id 'maven-publish'
+    id 'ivy-publish'
+}
+apply plugin: 'groovy'
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+}
+
+// This makes it easier to figure out issues with Travis CI builds
+test {
+    testLogging.showStandardStreams = true
+}
+
+apply plugin: 'maven'
+
+
+
+repositories {
+    mavenCentral()
+}
+
+
+// Plugin publishing
+
+group = 'com.ashish'
+version = '0.3.0'
+
+
+plugindev {
+    pluginId 'com.ashish.greeting'
+    pluginName 'greeting'
+    pluginImplementationClass 'com.ashish.greeting.GreetingPlugin'
+    pluginDescription 'Gradle plugin that lets greets you after successful build.'
+    pluginLicenses 'Apache-2.0'
+    pluginTags 'gradle', 'plugin', 'android'
+    authorId 'ashish0707    '
+    authorName 'Ashish Bulchandani'
+    authorEmail 'saashaa0707@gmail.com'
+    projectUrl 'https://github.com/ashish0707'
+    projectInceptionYear '2017'
+    done() // do not omit this
+}
+
+// If you want to upload this, make sure to set BINTRAY_USER and BINTRAY_API_KEY in gradle.properties
+if (project.hasProperty('BINTRAY_USER') && project.hasProperty('BINTRAY_API_KEY')) {
+    bintray {
+        dryRun = true // Turn off when actually deploying
+        publish = false // Maybe someday turn this on for auto-publishing
+
+        user = "$BINTRAY_USER"
+        key = "$BINTRAY_API_KEY"
+        pkg {
+            repo = 'gradle-plugins'
+            userOrg = 'ashish'
+        }
+    }
+}
+
+
+

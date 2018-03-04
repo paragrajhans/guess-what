@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter email..."
+        android:textColorHint="@android:color/darker_gray"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:id="@+id/emial_id" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Name..."
+        android:textColorHint="@android:color/darker_gray"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:id="@+id/userName" />
+
+    <Button
+        android:text="Register"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register" />
+</LinearLayout>

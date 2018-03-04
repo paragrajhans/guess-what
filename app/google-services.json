@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "367930689767",
+    "firebase_url": "https://numad17s-finalproject.firebaseio.com",
+    "project_id": "numad17s-finalproject",
+    "storage_bucket": "numad17s-finalproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367930689767:android:1034ebed9d4ce409",
+        "android_client_info": {
+          "package_name": "com.neu.edu.numad17s_finalproject_ab_vs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367930689767-b9ucr1cgvd64cfutc6ld55aq2g8t2pno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUb6t_VS_ZywjjZTt5C1PX6fn2e-Vpprs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

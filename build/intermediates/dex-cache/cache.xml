@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19181eda54b348703537ea9677bb78380559033c">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7d492f33c462e5d8d3d422d6b37b839863561190/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/0f7360549eb8d9621199100aa871a026e406fad8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_2a4c84b1aa18b29e8eade1c4e722da53bb21a32f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/d2da92b3de5cfb36d1ce569a61796cbdc2dddb5f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_be4b10db83767d59b2b10182e902df3dbaf15f81.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2c8a9d492ecb6fe86926151d946123b13f0228c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/e48709abe16add7f34000a6c751ede414edba77e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_0fe124f9661fa756bb9c4fa291342bbfe0d5a856.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/b95811aeaddad2c311f7444bcefdc0e865b6a467/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ebcb0bcf52fab7c586f39717f7cb8de91748b1b1">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_684ba318995df9a0b4e6ff764c5cacc9808c1f85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/5ad5487ee46a611de2cea64b023c82b634fcbe66/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_42df8cb81be28438d9f8d26601a0c125ef2dd7da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/d260a419e33079793a0a34d902a0d23d77be9719/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_8b683e8a74ac8e0b4936e921c4967de856098b1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/f57fd869124e2f2d40d359b82ec32903d137e70c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_cf53e8758361bf0c7cae81df7c5f77a7c24a7ff6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/51d95916fcb3dfb5016f14eedeb3d52da027475c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_e9137b2a09ed127eb26a62c3888fd91dd986b7d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/622caf3658bf030e5b8ad2296e661234434bbdde/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_db2b6d73f7b3bc0791686fffe72704d81d6cf078.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/a1996ad581ae8ea7437e39a3cfe493182746928a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_4f6ed9a5e61d5a4fa8745a1e7c88d1a31411777e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/d12fb448674d6afa7a02768d699f1581b19edf41/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_69abf3aaff92ea50805ada0142be898956c02cb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/1f852004e281a06ca941692080ebed3ea9fa7dbb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_c804270f1936dbffd9a967fa60320fcd475af1b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ashishbulchandani/.android/build-cache/d315cdcf6419a068dc6259d395dcc1dbacba7e2b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/ashishbulchandani/Documents/NUMAD17S-FINALPROJECT/app/build/intermediates/pre-dexed/debug/classes_1cab76e367b398c90221fc24ee4a4453307b9239.jar" />
+    </item>
+
+</items>

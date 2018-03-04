@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:id="@+id/drawing_board"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.6"
+       android:background="@android:color/white"
+       android:orientation="vertical"/>
+
+    <LinearLayout
+        android:id="@+id/guesses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/guessWrapper"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="50dp"
+            android:textColorHint="@color/white">
+
+            <EditText
+                android:id="@+id/guess"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:hint="Enter your Guess..."
+                android:textColor="@android:color/darker_gray"
+                android:textColorHint="@color/white"
+                android:textSize="18sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/submit_guess"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@color/indigo_300"
+            android:gravity="center"
+            android:text="Guess!"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        </LinearLayout>
+</LinearLayout>

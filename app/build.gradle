@@ -1,0 +1,60 @@
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.trello.victor'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.neu.edu.numad17s_finalproject_ab_vs"
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            svg.srcDir 'src/main/svg'
+        }
+    }
+
+}
+victor {
+    // Any assets defined in relative terms needs a base DPI specified
+    svgDpi = 72
+
+    // Do not generate these densities for SVG assets
+    excludeDensities = [ 'ldpi', 'xxxhdpi' ]
+
+    // Set this to "true" if you want to generate Android vectors instead of PNGs
+    generateVectorDrawables = false
+}
+
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.1'
+    testCompile 'junit:junit:4.12'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    compile 'com.google.firebase:firebase-database:10.0.1'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.google.android.gms:play-services-auth:10.0.1'
+    compile 'uk.co.chrisjenx:calligraphy:2.2.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
